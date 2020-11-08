@@ -1,0 +1,134 @@
+.container{
+    position: relative;
+    width: 100%;
+}
+.anim{
+    width: 20%;
+    margin: 100px auto;
+    -webkit-transform: scale(1.5,1.5);
+    transform: scale(1.5,1.5);
+}
+.head{
+    margin-left: 30px;
+    width: 200px;
+    height: 200px; 
+    background-color: #facaae;
+    border-radius: 180px;
+    border-color: rgb(218, 209, 209);
+}
+.eyebrow{
+    position: absolute;
+    top: 40px;
+    margin-left: 130px;
+    width: 35px;
+    height: 5px;
+    background-color: #a71a2f;
+    border-radius: 5px;
+    z-index: 6;
+}
+.eyebrow::before{
+    content:"";
+    position: absolute;
+    top: 0px;
+    margin-left: -95px;
+    width: 35px;
+    height: 5px;
+    background-color: #a71a2f;
+    border-radius: 5px;
+    z-index: 6;
+}
+.glass{
+    position: absolute;
+    top: 60px;
+    width: 30px;
+    height: 25px;
+    margin-left: 135px;
+    border-radius: 50%;
+    background-color: #f4f2f7;
+    padding: 0;
+    z-index: 5;
+}
+.glass::before{
+    content:"";
+    position: absolute;
+    top: 0px;
+    width: 30px;
+    height: 25px;
+    margin-left: -97px;
+    border-radius: 50%;
+    background-color: #f4f2f7;
+    padding: 0;
+    z-index: 5;
+}
+.puple{
+    position: absolute;
+    top: 4px;
+    width: 18px;
+    height: 18px;
+    margin-left: 6px;
+    border-radius: 50%;
+    background-color: #2b220e;
+    z-index: 5;
+}
+.puple::before{
+    content:"";
+    position: absolute;
+    top: 0px;
+    width: 18px;
+    height: 18px;
+    margin-left: -97px;
+    border-radius: 50%;
+    background-color: #2b220e;
+    z-index: 5;
+}
+.light{
+    position: absolute;
+    top: 3px;
+    margin-left: 8px;
+    width: 5px;
+    height: 5px;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+.light2{
+    position: absolute;
+    top: 3px;
+    margin-left: -91px;
+    width: 5px;
+    height: 5px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    z-index: 5;
+}
+.nose{
+    position: absolute;
+    top: 60px;
+    margin-left: 94px;
+    width: 15px;
+    height: 50px;
+    background-color: #fc8698;
+    border-radius: 10px;
+    z-index: 3;
+
+}
+.mouth{
+    position: absolute;
+    top: 140px;
+    margin-left: 85px;
+    width: 35px;
+    height: 15px;
+    background-color: #f0127a;
+    border-radius: 10px;
+    z-index: 3;
+}
+.mouth::before{
+    content: "";
+    position: absolute;
+    top: 10px;
+    margin-left: 6px;
+    width: 25px;
+    height: 10px;
+    background-color: #f0127a;
+    border-radius: 10px;
+    z-index: 3;
+}
